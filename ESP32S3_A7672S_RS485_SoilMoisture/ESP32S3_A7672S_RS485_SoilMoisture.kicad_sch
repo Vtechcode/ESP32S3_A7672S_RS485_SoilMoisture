@@ -1,0 +1,188 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ae48b87a-dcd2-495f-9d9e-c7746a21d241")
+	(paper "A4")
+	(title_block
+		(title "ESP32S3 SIMA7672 RS485 SOIL MOISTURE")
+		(date "2026-11-06")
+		(rev "1")
+		(company "VICTOR WABURI")
+	)
+	(lib_symbols)
+	(sheet
+		(at 113.03 24.13)
+		(size 40.64 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3fdb79a6-4a10-4797-82d6-9e5d879d5c67")
+		(property "Sheetname" "ESP32S3"
+			(at 113.03 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32S3.kicad_sch"
+			(at 113.03 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3_A7672S_RS485_SoilMoisture"
+				(path "/ae48b87a-dcd2-495f-9d9e-c7746a21d241"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 45.72 93.98)
+		(size 45.72 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "410d68a1-627d-4e29-b9d0-d86ec5d92988")
+		(property "Sheetname" "MAX485_RS485"
+			(at 45.72 93.2684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MAX485_RS485.kicad_sch"
+			(at 45.72 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3_A7672S_RS485_SoilMoisture"
+				(path "/ae48b87a-dcd2-495f-9d9e-c7746a21d241"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 24.13)
+		(size 48.26 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7ab4a29f-e4aa-4e94-8096-89543f33d620")
+		(property "Sheetname" "A7672S"
+			(at 171.45 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "A7672S.kicad_sch"
+			(at 171.45 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3_A7672S_RS485_SoilMoisture"
+				(path "/ae48b87a-dcd2-495f-9d9e-c7746a21d241"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 24.13)
+		(size 45.72 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d963eebd-ba30-46f2-a628-737bf9d0bc04")
+		(property "Sheetname" "POWER"
+			(at 44.45 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 44.45 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32S3_A7672S_RS485_SoilMoisture"
+				(path "/ae48b87a-dcd2-495f-9d9e-c7746a21d241"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
